@@ -45,7 +45,7 @@ class Create extends Component {
             author: this.state.author
         }
 
-        axios.post('http://localhost:3001/create', data)
+        axios.post('http://3.16.164.97:3001/create', data)
             .then(response => {
                 console.log("Status Code : ", response.status);
                 if (response.status === 200) {
