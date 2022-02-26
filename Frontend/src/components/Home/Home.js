@@ -13,7 +13,7 @@ class Home extends Component {
     }  
     //get the books data from backend  
     componentDidMount(){
-        axios.get('http://3.16.164.97:3001/home')
+        axios.get('http://3.137.147.188:3001/home')
                 .then((response) => {
                 //update the state with the response data
                 this.setState({

@@ -53,7 +53,7 @@ class Login extends Component{
         axios.defaults.withCredentials = true;
         //make a post request with the user data
         var thisKeyword = this;
-        axios.post('http://3.16.164.97:3001/login',data)
+        axios.post('http://3.137.147.188:3001/login',data)
             .then(response => {
                 console.log("Status Code : ",response.status);
                 if(response.status === 200){

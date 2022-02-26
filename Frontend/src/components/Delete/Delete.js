@@ -29,7 +29,7 @@ class Delete extends Component{
             deleteBookID: this.state.deleteBookID,
         }
 
-        axios.post('http://3.16.164.97:3001/delete', data)
+        axios.post('http://3.137.147.188:3001/delete', data)
             .then(response => {
                 console.log("Status Code : ", response.status);
                 if (response.status === 200) {
